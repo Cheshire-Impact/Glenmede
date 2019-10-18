@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+}
+
+* body {
+  color: #666;
+}
+
+* body h1,
+* body h2,
+* body h3,
+* body h4,
+* body h5,
+* body h6 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+* body .navbar {
+  height: 100px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+* body nav {
+  background-color: white;
+}
+
+* body .jumbotron {
+  padding-top: 0;
+  background-image: url("http://go.glenmede.com/l/129961/2019-10-16/33q8ms/129961/184167/glm_endowments_foundations_home_2_0.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+* body .subtitle {
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.callout {
+  background-color: rgba(32, 75, 105, 0.75);
+  font-weight: 300;
+  padding: 20px;
+}
+
+.orange {
+  color: #ff9933;
+}
+
+.darkblue {
+  color: rgba(32, 75, 105, 0.75);
+}
+
+.blue {
+  color: #006699;
+}
+
+.grey {
+  color: #666;
+}
+
+#nav1,
+#nav2,
+#nav3 {
+  width: 100%;
+  display: block;
+  color: white !important;
+  padding: 8px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+#nav1:hover,
+#nav2:hover,
+#nav3:hover {
+  text-decoration: none;
+}
+
+#nav1 {
+  background-color: rgba(102, 102, 102, 0.6);
+}
+
+#nav2 {
+  background-color: rgba(0, 102, 153, 0.6);
+}
+
+#nav3 {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#how_it_works {
+  border-left: 50px solid #ff9933;
+  background-color: #d9d9d9;
+  color: #000;
+}
+
+.card-deck .card {
+  border-radius: 0px;
+}
+
+.card-deck .card .card-body {
+  padding: 0;
+}
+
+.card-deck .card .card-body .card-title {
+  padding: 3px 10px;
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+  background-color: #ff9933;
+  text-align: center;
+}
+
+.card-deck .card .card-body .card-text {
+  padding: 10px;
+  text-align: center;
+}
+
+#section2 {
+  background-color: #006699;
+  color: white;
+  text-align: center;
+}
+
+#section2 .list-group {
+  text-align: left;
+  color: #666;
+  font-size: 18px;
+  line-height: 24px;
+  border: none;
+}
+
+#section2 .list-group span {
+  margin-right: 8px;
+}
+
+.advantage {
+  margin: 10px;
+  padding: 20px;
+  border-left: 50px solid #ff9933;
+  background-color: #d9d9d9;
+  color: #000;
+}
+
+.advantage p {
+  font-size: 24px;
+}
+
+#section2 {
+  background-image: url("http://go.glenmede.com/l/129961/2019-10-16/33q8ms/129961/184167/glm_endowments_foundations_home_2_0.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#section4 {
+  background-image: url("http://go.glenmede.com/l/129961/2019-10-16/33q8ms/129961/184167/glm_endowments_foundations_home_2_0.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#section4 .callout {
+  font-size: 24px;
+}
+
+#section5 .card {
+  border: none;
+}
+
+#section6 {
+  background-image: url("http://go.glenmede.com/l/129961/2019-10-16/33q8ms/129961/184167/glm_endowments_foundations_home_2_0.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.btn,
+.btn-primary {
+  max-width: 100%;
+  font-size: 24px;
+  font-weight: 300;
+  background-color: #ff9933;
+  border-color: #ff9933;
+  color: white;
+  padding: 30px;
+  text-transform: uppercase;
+}
+
+.btn:hover,
+.btn-primary:hover {
+  background-color: #006699;
+  border-color: #006699;
+}
+
+.btn svg,
+.btn-primary svg {
+  margin-left: 10px;
+}
+
+#section7 ul {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+#section7 .disclosure {
+  background-color: #666;
+  color: white;
+  padding: 20px;
+  font-size: 13px;
+  font-style: italic;
+}
+
+footer {
+  background-color: #006699;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+footer a {
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer a:hover {
+  color: #ff9933;
+}
+
+footer p {
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */
