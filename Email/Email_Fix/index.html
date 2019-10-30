@@ -50,7 +50,7 @@
 
       @media only screen and (max-width: 480px){
         body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
-                body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+        body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
 
         #bodyCell{padding:10px !important;}
 
@@ -83,13 +83,14 @@
 
         #headerImage{
           height:auto !important;
-          max-width:600px !important;
+          max-width:100% !important;
           width:100% !important;
         }
 
         .headerContent{
           font-size:20px !important;
           line-height:125% !important;
+          max-width: 100%;
         }
 
         #bodyImage{
