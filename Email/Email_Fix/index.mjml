@@ -1,0 +1,237 @@
+<mjml>
+  <mj-head>
+
+    <mj-attributes>
+
+      <mj-all font-family="Arial,Helvetica,sans-serif" font-size="16px" line-height="22px" color="#000" />
+      <mj-body background-color="#FAFAFA" />
+      <mj-section css-class="pardot-repeatable-removable" background-color="#fff" />
+      <mj-button css-class="whiteLink" />
+
+
+
+      
+    </mj-attributes>
+
+    <mj-style>
+        * {
+          color: #000;
+        }
+
+        a.blackLink {
+          color: #000 !important;
+          text-decoration: none !important;
+        }
+
+        a.blackLink:link {
+          color: #000 !important;
+          text-decoration: none !important;
+        }
+
+        a.blackLink:visited {
+          color: #000 !important;
+          text-decoration: none !important;
+        }
+
+        a.whiteLink {
+          color: #fff !important;
+          text-decoration: none !important;
+        }
+
+        a.whiteLink:link {
+          color: #fff !important;
+          text-decoration: none !important;
+        }
+
+        a.whiteLink:visited {
+          color: #fff !important;
+          text-decoration: none !important;
+        }
+
+
+        @media only screen and (max-width: 480px) {
+
+          .mobileHide {
+            display: none !important;
+          }
+
+
+        }
+      </mj-style>
+
+  </mj-head>
+
+  <mj-body>
+    <mj-wrapper border="1px solid #ddd" padding="0px">
+
+      <mj-section padding="0px">
+        <mj-column padding="0px">
+          <mj-image src="https://storage.pardot.com/129961/185013/2019_HolidayParty_Email_Banner_1.png" alt="Join us for a Holiday Party" padding="0px" width="600px" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text font-family="lucida sans unicode,lucida grande,sans-serif" font-size="18px" line-height="24px" align="center" padding-bottom="4px">
+            <div class="pardot-region">Glenmede Holiday Party</div>
+          </mj-text>
+          <mj-text align="center" padding-top="0px">
+            <div class="pardot-region">We look forward to celebrating the Holiday Season with you!</div>
+          </mj-text>
+          <mj-text align="center">
+            <div class="pardot-region">Glenmede invites you to our Holiday Parties hosted in the New York Metropolitan area. Join us as we kick off the holiday season in Morristown, followed by a special 10-year anniversary celebration in New York City.</div>
+          </mj-text>
+          <mj-text align="center">
+            <div class="pardot-region">Please feel free to attend both parties if the spirit moves you!</div>
+          </mj-text>
+          <mj-text align="center">
+            &bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;
+          </mj-text>
+          <mj-text font-family="lucida sans unicode,lucida grande,sans-serif" font-size="18px" line-height="24px" align="center" padding-bottom="4px">
+            &ndash;&nbsp;RSVP&nbsp;&ndash;
+          </mj-text>
+          <mj-text align="center" padding-top="0px">
+            <div class="pardot-region">Kindly respond by November 27</div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="20px">
+        <mj-column width="40%" padding="20px" background-color="rgb(247, 247, 247)" border="1px solid rgb(203, 203, 203)">
+          <mj-text color="#133363" font-size="14px" font-weight="bold" align="center" padding-bottom="4px">
+            <div class="pardot-region">MORRISTOWN</div>
+          </mj-text>
+          <mj-text font-size="14px" align="center" padding-top="0px">
+            <div class="pardot-region">Wednesday, December 4, 2019
+              5:30PM – 8:00PM</div>
+          </mj-text>
+          <mj-text font-size="14px" align="center">
+            <div class="pardot-region">Beacon Hill Club
+              250 Hobart Avenue
+              Summit, New Jersey</div>
+          </mj-text>
+
+          <mj-button href="http://go.glenmede.com/l/129961/2019-09-24/33mtrd" color="#fff" background-color="#133363" font-size="14px" border-radius="5px" padding="5px 0px" width="90%">
+            <div class="pardot-region">RSVP Morristown</div>
+          </mj-button>
+
+          <mj-button href="http://go.glenmede.com/l/129961/2019-09-24/33mtqn" color="#fff" background-color="#133363" font-size="14px" border-radius="5px" padding="5px 0px" width="90%">
+            <div class="pardot-region">Decline</div>
+          </mj-button>
+        </mj-column>
+
+        <mj-column css-class="mobileHide" width="5%">
+          <mj-text>
+            &nbsp;
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="40%" padding="20px" background-color="rgb(247, 247, 247)" border="1px solid rgb(203, 203, 203)">
+          <mj-text color="#133363" font-size="14px" font-weight="bold" align="center" padding-bottom="4px">
+            <div class="pardot-region">MORRISTOWN</div>
+          </mj-text>
+          <mj-text font-size="14px" align="center" padding-top="0px">
+            <div class="pardot-region">Wednesday, December 4, 2019
+              5:30PM – 8:00PM</div>
+          </mj-text>
+          <mj-text font-size="14px" align="center">
+            <div class="pardot-region">Beacon Hill Club
+              250 Hobart Avenue
+              Summit, New Jersey</div>
+          </mj-text>
+
+          <mj-button href="http://go.glenmede.com/l/129961/2019-09-24/33mtrd" color="#fff" background-color="#133363" font-size="14px" border-radius="5px" padding="5px 0px" width="90%">
+            <div class="pardot-region">RSVP Morristown</div>
+          </mj-button>
+
+          <mj-button href="http://go.glenmede.com/l/129961/2019-09-24/33mtqn" color="#fff" background-color="#133363" font-size="14px" border-radius="5px" padding="5px 0px" width="90%">
+            <div class="pardot-region">Decline</div>
+          </mj-button>
+        </mj-column>
+
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+
+          <mj-text align="center" padding-top="0px">
+            <div class="pardot-region">If you have any questions, please contact Laura Hubbard at
+              <a class="blackLink" href="#" style="color: #000 !important; text-decoration: none !important;"><span style="color: #000 !important; text-decoration: none !important;">
+                  <font style="color: #000 !important; text-decoration: none !important;">XXX-XXX-XXXX</font>
+                </span></a> or
+              <a class="blackLink" href="mailto:rsvp.nymetro@glenmede.com" style="color: #000 !important; text-decoration: none !important;"><span style="color: #000 !important; text-decoration: none !important;">
+                  <font style="color: #000 !important; text-decoration: none !important;">rsvp.nymetro@glenmede.com.</font>
+                </span></a></div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section padding="20px 20px 0px 20px" background-color="rgb(237, 237, 237)">
+        <mj-column width="50%" padding="30px 30px 10px 30px">
+          <mj-text font-size="12px" line-height="18px" align="center" padding-top="0px">
+            <div class="pardot-region">Glenmede Morristown Office<br />
+              1200 Mt. Kemble Avenue<br />
+              Morristown, NJ 07960-6797<br />
+              973-451-3800</div>
+          </mj-text>
+
+        </mj-column>
+
+
+
+        <mj-column width="50%" padding="30px 30px 10px 30px">
+
+          <mj-text font-size="12px" line-height="18px" align="center" padding-top="0px">
+            <div class="pardot-region">Glenmede New York Office<br />
+              535 Madison Avenue, 21 Floor<br />
+              New York, NY 10022-4214<br />
+              212-328-7310
+            </div>
+          </mj-text>
+
+        </mj-column>
+
+      </mj-section>
+
+      <mj-section padding="0px 0px 40px 0px" background-color="rgb(237, 237, 237)">
+        <mj-column padding="0px 30px">
+          <mj-text font-size="12px" line-height="18px" align="center">
+            <div class="pardot-region">
+              <a class="blackLink" href="https://www.glenmede.com/" style="color: #000 !important; text-decoration: none !important;"><span style="color: #000 !important; text-decoration: none !important;">
+                  <font style="color: #000 !important; text-decoration: none !important;">www.glenmede.com</font>
+                </span></a>
+            </div>
+          </mj-text>
+          <mj-text font-size="12px" line-height="18px" align="center" padding-top="0px">
+            <div class="pardot-region">
+              <a class="blackLink" href="https://www.glenmede.com/privacy-policy" style="color: #000 !important; text-decoration: none !important;"><span style="color: #000 !important; text-decoration: none !important;">
+                  <font style="color: #000 !important; text-decoration: none !important;">Privacy Policy</font>
+                </span></a>
+              &nbsp;
+              <a class="blackLink" href="%%email_preference_center_213%%" style="color: #000 !important; text-decoration: none !important;"><span style="color: #000 !important; text-decoration: none !important;">
+                  <font style="color: #000 !important; text-decoration: none !important;">Manage My Subscriptions</font>
+                </span></a>
+            </div>
+          </mj-text>
+
+          <mj-text font-size="12px" line-height="18px" align="center" padding-top="0px">
+            <div class="pardot-region">
+              Copyright &copy; 2019 The Glenmede Trust Company, N.A. All Rights Reserved.
+            </div>
+          </mj-text>
+          <mj-image href="https://www.glenmede.com/" src="http://go.glenmede.com/logo-blue.png" alt="Glenmede" width="125px" />
+
+        </mj-column>
+
+
+
+
+
+      </mj-section>
+
+
+    </mj-wrapper>
+  </mj-body>
+
+</mjml>
