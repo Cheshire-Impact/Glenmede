@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>%%title%%</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/swipebox.min.css">
+    <link rel="alternate stylesheet" title="pink" href="http://go.glenmede.com/l/129961/2017-08-04/2kvjls/129961/98371/skin_pink.css">
+    <link rel="stylesheet" href="http://go.glenmede.com/l/129961/2017-08-04/2kvj6n/129961/98359/style.css">
+    <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+    <style>
+.service-content {
+    padding: 50px 0 50px;
+}
+.speaker-content hr {
+    margin-top: 15px;
+}
+a,  a:hover,  a:focus,  button,  button:hover {
+    outline: 0;
+    text-decoration: none;
+    transition: .4s;
+    font-size: 17px;
+    color: #337ab7;
+}
+.logos {
+    padding-bottom: 30px;
+}
+img#first-logo {
+    margin-right: 0px;
+}
+.navbar-nav > li > a {
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+.navbar-default .navbar-nav > li > a {
+    font-size: 13px;
+    padding-left: 15px;
+}
+.logos {
+    padding-bottom: 0;
+}
+}
+.navbar-default {
+    height: 60px;
+    padding: 3px 0 5px;
+}
+
+@media screen and (min-width: 768px) {
+.rwd-break {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 367px) {
+.navbar-default .navbar-nav > li > a {
+    line-height: 1.2 !important;
+}
+.navbar-brand>img {
+    display: block;
+    height: 20px !important;
+    padding-right: 40px !important;
+    width: auto !important;
+}
+}
+.navbar-brand>img {
+    display: block;
+    height: 40px;
+    padding-right: 100px;
+}
+#event li {
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+#event ul {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.event-header .event-header-box .box-event-info {
+    position: relative;
+    padding-left: 60px;
+}
+.box-event-info p {
+    float: right;
+}
+.box-event-info i {
+    float: left;
+    font-size: 65px;
+    color: blue;
+}
+.event-header .event-header-box .box-event-info p {
+    font-weight: 700;
+    margin: 0;
+    padding-top: 0;
+    line-height: 1.5em;
+    color: #005f83 !important;
+}
+.event-post .event-header .event-header-box i {
+    color: #005f83;
+    border: 2px solid #005f83;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 100%;
+    padding-top: 7px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 1em;
+    font-size: 15px;
+}
+.fa-calendar:before {
+    content: "\f073";
+}
+.speaker-content h4 {
+    font-weight: bold;
+    color: #005c82;
+}
+.info-content-form ul,  li {
+    list-style: inside none none;
+}
+form.form span.value {
+    margin-left: 0 !important;
+}
+#eventinfo {
+    padding: 30px 0;
+}
+.service-content h2 {
+    text-align: center;
+    color: #333;
+    padding: 0px 23%;
+    font-size: 34px;
+    text-transform: none;
+    line-height: 45px;
+    margin: 0px 0px 20px;
+    font-weight: 400;
+    font-family: "Lato", Helvetica, Arial, Sans-serif;
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+#tabs > li > a {
+    text-decoration: none;
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+}
+#tabs > li.active > a {
+    text-decoration: none;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    color: #555;
+}
+#tabs a {
+    outline: 0;
+    text-decoration: none;
+    transition: .4s;
+    font-size: 21px;
+    color: #005c82;
+}
+.time p span {
+    color: #005c82 !important;
+}
+ul,  ol,  li {
+    margin: 0;
+    padding: 0;
+    list-style-type: disc !important;
+}
+.agenda-spk {
+    display: table-cell;
+    padding-left: 20px;
+}
+.agenda-spk h1 {
+    font-size: 18px;
+    margin-bottom: 3px;
+    color: #333;
+    font-family: "Lato", Helvetica, Arial, Sans-serif;
+    font-weight: 400;
+    letter-spacing: normal;
+    margin: 0;
+}
+.agenda-spk h2 {
+    font-size: 14px;
+    margin-bottom: 3px;
+    color: #777;
+    font-family: "Lato", Helvetica, Arial, Sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    margin: 0;
+    text-align: left !important;
+    padding: 0 0 10px!important;
+    line-height: 20px;
+}
+.agenda-spk h3 {
+    font-size: 14px;
+    margin: 0.85em 0;
+    font-size: 14px;
+    color: #777;
+    font-weight: 400;
+    font-family: "Century-Gothic", "Muli", "Lato", Helvetica, Arial, Sans-serif, Arial, sans-serif;
+    letter-spacing: 0.04px;
+}
+.time-clock p {
+    margin: 0 !important;
+    font-size: 1.30em;
+    font-family: "Lato", Helvetica, Arial, Sans-serif;
+    color: #777 !important;
+}
+i.fa.fa-thumbs-up {
+    color: #333;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 250px) {
+.container {
+    max-width: initial;
+}
+#tabs > li > a,  #tabs > li.active > a,  #event li,  p {
+    font-size: 13px;
+}
+.info-content-form ul,  li {
+    margin-left: 0 !important;
+}
+.item img.img-responsive {
+    padding-bottom: 20px;
+}
+.navbar-default .navbar-collapse {
+    background: #9E9E9E;
+}
+.service-content {
+    padding: 20px 0px 20px;
+}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 250px) {
+.nav {
+    height: auto !important;
+    overflow: hidden;
+}
+}
+.gmap {
+    height: 100% !important;
+    background: transparent !important;
+}
+.btn-ico {
+    padding: 0 40px;
+    position: relative;
+}
+.btn {
+    text-align: center !important;
+}
+.info h4 {
+    padding-top: 12px;
+}
+#event .row {
+    padding: 30px;
+}
+.service-content i.fa.fa-calendar.fa-4x,  .service-content i.fa.fa-map-marker {
+    color: #333;
+}
+.info h4:hover {
+    color: #005c82;
+}
+#speaker:hover img {
+    border-color: #005c82;
+}
+.tab-pane h3 {
+    padding: 20px 0 20px;
+}
+.headingIcon i,  #speakers2 h3 {
+    color: #333;
+}
+#speakers2 .headingIcon::before,  #speakers2 .headingIcon::after {
+    background-color: #fff;
+}
+.tab-pane .item {
+    position: relative;
+    background-color: #ebebeb;
+    margin: 1em;
+    padding: 1.85em;
+    font-weight: 400;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.speaker img {
+    position: relative;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    display: block;
+    max-width: 200px;
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+#speakers2 .item ul {
+    margin: 0;
+    padding: 0.5em;
+    cursor: auto;
+    bottom: 0;
+    overflow: hidden;
+}
+#speakers2 .item ul li {
+    padding: 0;
+}
+#speakers2 .item ul li a {
+    color: #888;
+    font-size: 1.35em;
+    padding: 0.65em;
+}
+.owl-theme .owl-controls .owl-buttons div {
+    font-family: 'FontAwesome';
+}
+#agenda .item:hover,  #speakers2 .item:hover {
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.segmentInfo h5 a {
+    font-size: 14px;
+    color: #005c82;
+}
+body {
+    font-size: 14px !important;
+}
+.segment:hover img.img-responsive {
+    border-color: #005c82;
+}
+.hex {
+    display: inline-block;
+    overflow: hidden;
+    margin: 3em 0 1.5em;
+    width: 14em;
+    height: 12.124em;
+    -moz-transform: scale(1) rotate(-30deg) skewX(30deg);
+    -webkit-transform: scale(1) rotate(-30deg) skewX(30deg);
+    -o-transform: scale(1) rotate(-30deg) skewX(30deg);
+    -ms-transform: scale(1) rotate(-30deg) skewX(30deg);
+    transform: scale(1) rotate(-30deg) skewX(30deg);
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    border-radius: 9px;
+    font-size: 1em;
+}
+.hex *,  .hex *:before {
+    display: block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
+.hex-inner {
+    overflow: hidden;
+    -moz-transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+    -webkit-transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+    -o-transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+    -ms-transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+    transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+}
+.hex-inner:before {
+    -moz-transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+    -webkit-transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+    -o-transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+    -ms-transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+    transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+    background: #ebebeb;
+    content: '';
+}
+.hex-inner span {
+    display: block;
+    font-size: 3.35em;
+    margin: 0 auto;
+    line-height: 3.15em;
+    transform: skewX(-30deg) rotate(-30deg);
+    -webkit-transform: skewX(-30deg) rotate(-30deg);
+    -o-transform: skewX(-30deg) rotate(-30deg);
+    -ms-transform: skewX(-30deg) rotate(-30deg);
+    -moz-transform: skewX(-30deg) rotate(-30deg);
+}
+.hex:first-child {
+    margin-left: 0;
+}
+.hex-inner strong {
+    display: block;
+    font-size: 16px;
+    padding: 0.45em 0.2em 0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    transform: skewX(-30deg) rotate(-30deg);
+    -webkit-transform: skewX(-30deg) rotate(-30deg);
+    -o-transform: skewX(-30deg) rotate(-30deg);
+    -ms-transform: skewX(-30deg) rotate(-30deg);
+    -moz-transform: skewX(-30deg) rotate(-30deg);
+}
+.hex-inner span,  .hex-inner strong,  .hex.sm .hex-inner i {
+    position: absolute;
+    top: 0;
+}
+.hex.xs .hex-inner i {
+    position: absolute;
+    top: 0;
+    margin: 0;
+}
+.hex-inner strong {
+    position: absolute;
+    top: 50%;
+}
+.hex.sm {
+    width: 9em;
+    height: 7.65em;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+.hex.sm .hex-inner i {
+    display: block;
+    font-size: 3.65em;
+    line-height: 2.15em;
+    margin: 0 auto;
+    transform: skewX(-30deg) rotate(-30deg);
+    -webkit-transform: skewX(-30deg) rotate(-30deg);
+    -o-transform: skewX(-30deg) rotate(-30deg);
+    -ms-transform: skewX(-30deg) rotate(-30deg);
+    -moz-transform: skewX(-30deg) rotate(-30deg);
+    top: 0;
+    text-align: center;
+}
+.hex.xs {
+    width: 5em;
+    height: 4.25em;
+}
+.hex.xs .hex-inner i {
+    display: block;
+    font-size: 30px;
+    line-height: 60px;
+    margin: 0 auto;
+    transform: skewX(-30deg) rotate(-30deg);
+    -webkit-transform: skewX(-30deg) rotate(-30deg);
+    -o-transform: skewX(-30deg) rotate(-30deg);
+    -ms-transform: skewX(-30deg) rotate(-30deg);
+    -moz-transform: skewX(-30deg) rotate(-30deg);
+    text-align: center;
+}
+.hex-inner.second i,  .hex-inner.prime i {
+    color: #fff;
+}
+.hex-inner i.fa-microphone:before {
+    content: "\f130";
+}
+#schedule .carousel {
+    margin-top: 3em;
+}
+#schedule .carousel-indicators {
+    position: relative;
+    bottom: 0;
+    margin-left: 0;
+    left: auto;
+    width: 100%;
+    margin-bottom: 1.35em;
+}
+#schedule .carousel-indicators li {
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #fff;
+    margin: 0 0.35em 1em;
+    width: 2.65em;
+    min-height: 2.65em;
+    border-radius: 0;
+    text-indent: 0;
+    padding: 0 0.15em 1.65em;
+    font-size: 2.15em;
+    text-align: center;
+}
+#schedule .carousel-indicators li.active::before {
+    content: '\f0d7';
+    font-family: 'FontAwesome';
+    font-size: 1.5em;
+    position: absolute;
+    bottom: -0.65em;
+    left: 50%;
+    margin-left: -0.28em;
+    display: block;
+}
+#schedule .carousel-indicators li span {
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 3px;
+    color: #fff;
+    max-width: 100%;
+}
+#schedule .carousel-inner .item {
+    padding-top: 1em;
+}
+#schedule .item > div {
+    position: relative;
+}
+.segment {
+    display: block;
+}
+.segment .speaker {
+    position: relative;
+    display: block;
+    width: 30%;
+    float: left;
+}
+.speakerImg {
+    text-align: center;
+    line-height: 1.2em;
+    display: none;
+}
+.speakerImg img {
+    width: 55%;
+    height: auto;
+}
+.speakerImg h6 {
+    margin-bottom: 0;
+}
+.speakerImg span {
+    font-size: 12px;
+    line-height: 1.35em;
+    opacity: 0.6;
+    margin-top: 0.65em;
+    display: block;
+}
+.segmentInfo {
+    display: block;
+    position: relative;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    padding: 2em 1em 1.75em !important;
+    margin: 1.5em 0;
+    width: 88%;
+    float: right;
+}
+.hex-inner i.fa.fa-cutlery,  .hex-inner i.fa- {
+    color: #333;
+}
+.hex-inner i.fa-microphone:before {
+    color: #333;
+}
+.segmentInfo div {
+    padding: 0;
+}
+div.segmentInfo::before {
+    content: '\f0d9';
+    font-family: 'FontAwesome';
+    font-size: 3em;
+    color: #ebebeb;
+    position: absolute;
+    top: 0.35em;
+    left: -0.34em;
+    display: block;
+}
+.segmentInfo h4 {
+    margin-bottom: 3px;
+}
+.vline {
+    top: -1.65em;
+    right: auto;
+    bottom: -1.5em;
+    left: -4.9em;
+    position: absolute;
+    width: 7px;
+    background-color: #ebebeb;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    display: none
+}
+.segment .round {
+    position: absolute;
+    z-index: 9;
+    top: 3.65em;
+    right: 18em;
+}
+.segment .hex.xs {
+    margin: -15px 0;
+}
+.segment .hex.xs i,  .galimg .hex.xs i,  .carousel-control .hex.xs i,  #map .hex.xs i {
+    position: absolute;
+    top: 0;
+}
+.segment .round {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    height: 5.65em;
+    width: 5.65em;
+    text-align: center;
+}
+.segment .round::before {
+    right: 100%;
+}
+.segment img.img-responsive {
+    border: 2px solid #ccc;
+    margin: 1.25em auto 1em;
+    display: none;
+}
+.time {
+    display: table-cell;
+    font-size: 1.00em;
+    border-right: 1px #ccc solid;
+    padding-right: 20px !important;
+    padding-left: 10px !important;
+    line-height: 18px;
+    margin-right: 27px;
+    min-width: 90px;
+}
+.text-left {
+    display: table;
+}
+.segment.lunch .round::before,  .segment.day .round::before {
+    display: none;
+}
+.segment:hover .segmentInfo {
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.08);
+}
+.nav-tabs ul,  li {
+    list-style: outside none none;
+    margin-left: 1em;
+    text-indent: 0 !important;
+    padding-left: 0 !important;
+}
+div#content {
+    padding-top: 20px
+}
+div.headingIcon {
+    padding-top: 30px;
+}
+.navbar-default .navbar-nav > li > a {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .5pt;
+}
+.dc-form.introform {
+    padding-top: 10px !important;
+}
+.dc-form {
+    padding: 0px;
+}
+div.dc-form h3 {
+    padding: 0 0 20px;
+}
+.feature-content {
+    border: 10px solid transparent;
+    border-image: url(https://www.glenmede.com/sites/all/themes/glm/images/border-image28.png) 10;
+    padding: 60px 0px;
+}
+.info-content-form ul,  li {
+    list-style: outside none none;
+    margin-left: 1em;
+    text-indent: -1em;
+    padding-left: 0 !important;
+}
+hr {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.14);
+}
+.info-content-form ul li::before {
+    font-family: FontAwesome;
+    content: "\f00c";
+    position: relative;
+    left: -20px;
+}
+.cta-content a:before {
+    color: #ffffff !important;
+}
+.info-content-form span {
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 1.6em;
+    font-weight: 400;
+    font-family: "Century-Gothic", "Muli", "Lato", Helvetica, Arial, Sans-serif, Arial, sans-serif;
+}
+.cta-content h2 {
+    margin: 0px 0px 10px;
+    font-size: 35px;
+    color: #000000;
+    letter-spacing: normal !important;
+}
+.cta-content p {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+.cta-content p a {
+    color: #337ab7 !important;
+    opacity: 1 !important;
+}
+.info-content-form .check-list li {
+    position: relative;
+    padding-left: 65px;
+    margin-bottom: 20px;
+    list-style: outside none none;
+    padding-right: 20%;
+    line-height: 26px;
+}
+.info-content-form .check-list li span {
+    position: relative;
+    top: 0;
+    left: 0px;
+    font-size: 30px;
+    opacity: 1;
+    border-radius: 50%;
+}
+.introform h4 {
+    font-size: 26px !important;
+    font-weight: 200;
+    font-weight: 400 !important;
+}
+.cta-content {
+    padding: 60px 0 !important;
+}
+.info-content-form {
+    padding: 60px 0 !important;
+}
+.info-content-form h2 {
+    font-size: 40px !important;
+    padding-bottom: 10px;
+}
+.info-content h2 {
+    font-size: 40px !important;
+}
+.info-content {
+    padding: 60px 0 !important;
+}
+.introform h4 {
+    font-size: 36px;
+    margin: 0px 0px 5px;
+    font-weight: 200;
+    font-weight: bold !important;
+}
+.section-dark {
+    color: #ffffff !important;
+}
+.icon-box p {
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0px;
+}
+.content-head-lite p {
+    opacity: 0.6;
+    color: #fff;
+    padding: 0px !important;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 1.6em;
+}
+.content-head-lite h2 {
+    margin: 0px 0px 10px;
+    font-size: 40px;
+    color: #FFF;
+    letter-spacing: normal !important
+}
+.fc-inner p {
+    font-size: 16px;
+    line-height: 1.6em;
+    color: rgb(153, 153, 153);
+    padding: 0px 0px 20px;
+}
+.intro8 p {
+    color: #FFF;
+    font-size: 20px;
+    line-height: 1.6em;
+    opacity: 1;
+    text-align: center;
+}
+.overlay {
+    top: 0 !important;
+}
+code {
+    padding: 0px !important;
+    font-size: 0px !important;
+    color: #ffffff !important;
+    background-color: #ffffff !important;
+    border-radius: 0px !important;
+}
+form.form {
+    padding: .5em 0 !important;
+}
+.red-background,  form.form p.errors {
+    background: #005c82 !important;
+    color: #ffffff;
+    padding-left: .5em !important;
+    margin-bottom: 1em !important;
+}
+.red-color,  form.form p.error,  form.form span.error,  form.form div.error,  form.form p.error no-label {
+    color: #005c82 !important;
+}
+form.form p {
+    margin: 3px 0px !important;
+    padding: 3px 0px !important;
+}
+form.form p.required label:after {
+    content: " *" !important;
+    color: #005c82 !important;
+}
+form.form p.required label,  form.form span.required label {
+    background: none !important;
+}
+form.form p span.description {
+    margin-left: 0 !important;
+}
+#pardot-form p label {
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    width: 100%;
+    text-align: left;
+}
+#pardot-form select,  #pardot-form input.text {
+    transition: all 0.5s ease;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 0 5px 0;
+    padding: 5px 8px;
+    border: 0;
+    outline: 0;
+    font-size: 13px;
+    line-height: 18px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000000 !important;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    border: 1px solid #e1e1e1;
+}
+#pardot-form select {
+    height: 50px;
+}
+#pardot-form textarea.standard {
+    width: 100%;
+    height: 30px;
+    -moz-box-shadow: inset 1px 1px 3px #dddddd;
+    -webkit-box-shadow: inset 1px 1px 3px #dddddd;
+    box-shadow: inset 1px 1px 3px #dddddd;
+    border: solid 1px #d6d6d6;
+    transition: all 0.5s ease;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555 !important;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+    height: 110px;
+}
+#pardot-form p.submit input {
+    color: #ffffff !important;
+    background: #005c82;
+    text-decoration: none;
+    transition: all 0.1s linear;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    width: 155px;
+    height: 50px;
+    border: none;
+}
+#pardot-form.form p.submit {
+    margin: 8px 0 !important;
+    text-align: left;
+}
+form#pardot-form.form {
+    margin-left: 0;
+    margin-top: 0;
+}
+form.form p.submit input {
+    margin: 0 10px 0 0 !important;
+    padding: 2px 12px
+}
+#agenda h4 {
+    line-height: 2em;
+}
+</style>
+    </head>
+
+    <body>
+<code pardot-region="Submit Background Image" pardot-region-type="HTML" data-id="22100">
+    <style type="text/css">
+	
+.blue-button {
+		border:#0099cc 6px solid !important;
+	}
+	
+.intro8 h1 {
+  color: #ffffff !important;
+    font-family: "Century-Gothic","Muli","Lato",Helvetica,Arial,Sans-serif;
+    font-size: 35px !important; 
+	padding-bottom:35px;
+}
+   .intro8 h3 {
+   color: #ffffff !important;
+   font-family: "Century-Gothic","Muli","Lato",Helvetica,Arial,Sans-serif;
+    font-size: 60px !important;
+	margin:0 0 10px;
+	letter-spacing:-1.5px;
+
+	}
+	.intro8 #mainbutton a {
+		text-align:center !important;
+		color:#ffffff;
+		padding: 10px 40px;
+    line-height: 26px;
+    font-size: 21px;
+    font-weight: 700;
+    border: medium none;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    border-radius:0;
+    text-align: left;
+    font-family: "Lato",Helvetica,Arial,Sans-serif;
+	display:inline-block;
+	margin-bottom:10px;
+	vertical-align:middle;
+	touch-action:manipulation;
+	cursor: pointer;
+	-webkit-user-select::none;
+	 -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+	    outline: 0;
+    text-decoration: none;
+    transition: .4s;
+	}
+
+	.intro8 h2 {
+   color: #ffffff !important;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 100;
+    margin: 0 0 30px;
+	}
+	.intro8 a {
+    color:#ffffff;
+	}
+	ul.nav.navbar-nav.navbar-right a {
+    color: #000000 !important;
+}
+
+    .keynote {border:3px solid #337ab7;}
+ .intro8 {
+	background: #333 url(http://go.glenmede.com/l/129961/2018-09-18/31shgv/129961/147141/Header_Image_OH_Women_Impact_1200x323.png) no-repeat center top;
+	background-size: cover;
+	padding: 120px 0 50px;
+	position: relative;
+}
+@media only screen and (max-width: 767px) and (min-width: 250px){
+.navbar-default {
+    max-height: 60px;
+
+}
+	.time {
+	width:100% !important;
+    border-right: none !important;		
+
+}
+	
+	.agenda-spk {
+		display:block;
+		padding-left:0;
+		float: none !important;
+	}}
+						>
+</style>
+    </code>
+<div id="page-top"></div>
+<div id="wrapper">
+      <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" pardot-region="navigation"> 
+              
+              <!-- 1.) Keep class "page-scroll" to have smooth scrolling feature
+        2.) change href to match the unique id tag -->
+              <ul class="nav navbar-nav navbar-right">
+            <li><a class="page-scroll" data-toggle="tab" href="#maincontent" id="gotoevent">Event Details</a></li>
+            <li><a class="page-scroll" data-toggle="tab" href="#maincontent" id="gotospeakers">Speakers</a></li>
+            <li><a class="page-scroll" data-toggle="tab" href="#maincontent" id="gotoagenda">Co-Chairs</a></li>
+            <li><a class="page-scroll" data-toggle="tab" href="#maincontent" id="gotoinformation">Information</a></li>
+            <li><a class="page-scroll" data-toggle="tab" href="#maincontent" id="gotohost">Hosts</a></li>
+            <li><a class="page-scroll" href="#RSVP">Contact</a></li>
+          </ul>
+            </div>
+      </div>
+        </nav>
+  </header>
+      <div class="intro8" style="padding-bottom:40px">
+    <div class="container">
+          <div class="row center-content text-center">
+        <div class="col-md-12">
+              <div class="container">
+            <div class="row">
+                  <div class="col-md-12 text-center">
+                <div style="background-color:rgba(17, 17, 17, 0.5);">
+                      <div pardot-region="content-above-new">
+                    <p>&nbsp;</p>
+                    <p><span style="color:#FFFFFF;"><span style="font-size:20px;"><em><span style="font-family:arial,helvetica,sans-serif;">Glenmede presents</span></em> </span> <br />
+                      <span style="font-size:36px;"><span style="font-family:arial,helvetica,sans-serif;">Funding the Future: Investing in Women</span></span> </span> </p>
+                    <p>&nbsp;</p>
+                    <p><span style="color:#FFFFFF;"><span style="font-size:24px;"><span style="font-family:arial,helvetica,sans-serif;">November 16, 2018</span></span> <br>
+                      <span style="font-size:24px;"><span style="font-family:arial,helvetica,sans-serif;">CASE WESTERN RESERVE UNIVERSITY</span></span> </span> </p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                  </div>
+                      <div id="mainbutton" pardot-region="main_button" data-id="44253">
+                    <p><a href="#pardot-form" target="_top">REGISTER</a></p>
+                  </div>
+                      <div style="padding:10px 0 0 0" pardot-region="content-below" data-id="44241">
+                    <p style="text-align: center;">&nbsp;</p>
+                  </div>
+                    </div>
+              </div>
+                  
+                  <!--end Modal HTML--> 
+                </div>
+          </div>
+            </div>
+      </div>
+        </div>
+  </div>
+    </div>
+<div class="service-content" id="maincontent">
+      <div class="container">
+    <div>
+          <div class="row">
+        <div class="col-md-12 text-center" pardot-region="hosted-by">
+              <p style="padding-bottom:0; margin-bottom:0; font-weight:300">Hosted by:</p>
+            </div>
+      </div>
+          <div class="row">
+        <div class="col-md-12 text-center">
+              <div class="logos"><img alt="" id="first-logo" src="http://go.glenmede.com/l/129961/2016-08-23/w927h/129961/45346/Logo_171x40px.png" style="width: 100%; max-width: 171px; padding: 0px;"></div>
+            </div>
+      </div>
+          <div id="content">
+        <ul id="tabs" class="nav nav-tabs hidden-xs hidden-s" data-tabs="tabs">
+              <li class="active"><a href="#event" style="font-weight:bold" data-toggle="tab" pardot-region="tab1">Program</a></li>
+              <li><a href="#speakers" style="font-weight: bold" data-toggle="tab" pardot-region="tab3">Vero Beach</a></li>
+              <li><a href="#agenda" style="font-weight: bold" data-toggle="tab" pardot-region="tab2">Palm Beach</a></li>
+              <li><a href="#information" style="font-weight: bold" data-toggle="tab" pardot-region="tab4">About Glenmede</a></li>
+              <li><a href="#RSVP" style="font-weight: bold" pardot-region="tab6">RSVP</a></li>
+            </ul>
+        <div id="my-tab-content" class="tab-content">
+              <div class="tab-pane fade in active" id="event" pardot-region="program">
+            <div class="text-center">
+                  <h3 style="padding:1em 0 .5em">Program</h3>
+                </div>
+            <div class="item">
+                  <h3 style="padding:1em 0 .5em">About the Program </h3>
+                  <p>Katherina Rosqueta, founding executive director of the Center for High Impact Philanthropy, will present The XX Factor- How to Align Financial Investment to Improve the Lives of Women and Girls. Panelists will discuss the five key dimensions of women's lives that research show are critical to women flourishing: Health, Education, Economic Empowerment, Personal Safety and Legal Rights.</p>
+                </div>
+          </div>
+              <div class="tab-pane fade in" id="agenda">
+            <section id="speakers3" class="BGsecondary">
+                  <div class="texture2">
+                <div class="text-center page-block"  data-id="44247">
+                      
+                      <div class="text-center">
+                    <h3 style="padding:1em 0 .5em"><b>Palm Beach</b></h3>
+                     <h4>Glenmede presents <b>Politics, Policy & Private Markets</b>. A panel <b>discussion</b> followed by <b>dinner</b> and conversation.</h4>
+                    <br>
+                  </div>
+                    
+        
+                      <div>
+                   
+                
+                   
+                   
+                   
+                    <div class="owl-carousel wow zoomIn" data-wow-duration="0.75s">
+                          <div class="item keynote">
+                        <div pardot-region="palm beach" class="col-md-6 text-left speaker-content" style="margin-bottom: 1.5em; margin-top: 1.5em;">
+                              <h1>PALM BEACH</h1>
+                              <p style="font-size:21px; padding-top:30px">Wednesday, February 6, 2019<br>
+                            3:30pm  - 6:30pm<br><br>
+                            The Breakers<br>
+                            1 South County Road<br>
+                            Palm Beach, Florida</p>
+                            </div>
+                        <div class="col-md-6 speaker">
+                              <div class="gmap" pardot-region="palm iframe-gmap">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d630.021452924607!2d-80.03409049131253!3d26.71437863727375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8d690c3f1c465%3A0xa8a377761607812!2sThe+Breakers+Palm+Beach!5e0!3m2!1sen!2sus!4v1546537360422" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                          </div>
+                            </div>
+                      </div>
+                        </div>
+                    <div>
+                          <h3 style="padding:1em 0 .5em">Moderator</h3>
+                        </div>
+                    <div class="owl-carousel wow zoomIn" data-wow-duration="0.75s">
+                          <div class="item">
+                        <div class="col-md-2 speaker"> <a href="https://www.glenmede.com/thomas-melcher" style="text-decoration:none;" target="_blank"><img alt="" class="center-block img-responsive" src="https://www.glenmede.com/files/styles/350x350/public/t_melcher_web.jpg?itok=Ynp2-CqS"></a> </div>
+                        <div class="col-md-10 text-left speaker-content" style="margin-bottom: 1.5em; margin-top: 1.5em;">
+                              <h4><a href="https://www.glenmede.com/thomas-melcher" style="text-decoration:none;" target="_blank">Thom Melcher</a></h4>
+                              <span style="font-size:14px;"><strong>Associate Director of Investment Management, Glenmede</strong></span>
+                              <hr>
+                              <p>Thom joined Glenmede in 2018 as a senior member of Glenmede’s Private Wealth leadership team following an extensive career as principal and leader of PNC’s Hawthorn business. In his role, he leads ongoing initiatives to establish and implement innovative strategies, best practices and consistent standards across Glenmede’s Private Wealth business. As moderator of this program, he will drive the discussion between our panelists and create an interactive dialogue with our audience. </p>
+                            </div>
+                      </div>
+                        </div>
+                    <div>
+                          <h3 style="padding:1em 0 .5em">Panelists</h3>
+                        </div>
+                    <div class="owl-carousel wow zoomIn" data-wow-duration="0.75s">
+                          <div class="item">
+                        <div class="col-md-2 speaker"> <a href="https://www.horizoninvestments.com/about-us/#team" style="text-decoration:none;" target="_blank"><img alt="" class="center-block img-responsive" src="http://go.glenmede.com/l/129961/2019-01-08/32fbzz/129961/158271/Greg_East_Coast.png"></a> </div>
+                        <div class="col-md-10 text-left speaker-content" style="margin-bottom: 1.5em; margin-top: 1.5em;">
+                              <h4><a href="https://www.horizoninvestments.com/about-us/#team" style="text-decoration:none;" target="_blank">Greg Valliere</a></h4>
+                              <span style="font-size:14px;"><strong>Chief Global Strategist, Horizon Investments</strong></span>
+                              <hr>
+                              <p>Greg is a veteran Washington watcher, with nearly 40 years' experience covering political and economic developments for investors.  A frequent speaker at financial conferences, Greg is Chief Strategist at Horizon Investments and is a regular contributor to Barron's magazine.</p>
+
+<p>During his career, Greg has worked for many non-partisan research firms.  For several years he was director of research at the Charles Schwab Washington Research Group, and was the Chief Political Strategist at the Potomac Research Group.  He specializes in coverage of economic policy, legislation, the Federal Reserve and -- of course -- politics.</p>
+
+<p>Greg is a regular guest on CNN, Bloomberg TV and radio, CNBC, Fox TV, and is a frequent contributor to CBS radio news.  In addition to his column for Barron's, Greg contributes frequently to The Wall Street Journal and The Washington Post.</p>
+
+                            </div>
+                      </div>
+                        </div>
+                    <div class="owl-carousel wow zoomIn" data-wow-duration="0.75s">
+                          <div class="item">
+                        <div class="col-md-2 speaker"> <a href="https://www.glenmede.com/kenneth-b-trippe-cfa-frm" style="text-decoration:none;" target="_blank"><img alt="" class="center-block img-responsive" src="https://www.glenmede.com/files/styles/350x350/public/k_trippe_web_1.jpg?itok=amn0flJV"></a> </div>
+                        <div class="col-md-10 text-left speaker-content" style="margin-bottom: 1.5em; margin-top: 1.5em;">
+                              <h4><a href="https://www.glenmede.com/kenneth-b-trippe-cfa-frm" style="text-decoration:none;" target="_blank">Kenneth Trippe</a></h4>
+                              <span style="font-size:14px;"><strong>Director of Private Investments, Glenmede</strong></span>
+                              <hr>
+                              <p>Ken will provide his perspective on the state of the private markets and will focus on the new regulations within the Opportunity Zone Funds program. Mr. Trippe is a principal on both the private equity and real estate investment teams where his duties include investment selection and portfolio management. Prior to joining Glenmede, Mr. Trippe spent over two decades with the Equitable Life Insurance Companies, a part of the AXA Financial group, ultimately rising to the position of vice president. </p>
+                            </div>
+                      </div>
+                        </div>
+                  </div>
+                    </div>
+              </div>
+                </section>
+          </div>
+              <div class="tab-pane fade in" id="speakers">
+            <section id="speakers2" class="BGsecondary">
+                  <div class="texture2">
+                <div class="text-center page-block" data-id="44247">
+                     
+                      <div class="text-center">
+                    <h3 style="padding:1em 0 .5em"><b>Vero Beach</b></h3>
+                  
+                    <h4>Our annual Florida Series welcomes guests to join us for <b>dinner</b> and a <b>discussion</b> of the economy and markets.</h4>
+                    <br>
+                  </div>
+                  
+                    
+                  
+                      <div>
+                    <div class="owl-carousel wow zoomIn" data-wow-duration="0.75s">
+                          <div class="item keynote">
+                        <div pardot-region="vero beach" class="col-md-6 text-left speaker-content" style="margin-bottom: 1.5em; margin-top: 1.5em;">
+                              <h1>VERO BEACH</h1>
+                              <p style="font-size:21px; padding-top:30px">Tuesday, February 5, 2019<br>
+                            5:30pm  - 7:30pm<br>
+                            John's Island Club<br>
+                            3 John's Island Drive<br>
+                            Vero Beach, Florida</p>
+                            </div>
+                        <div class="col-md-6 speaker">
+                              <div class="gmap" pardot-region="vero iframe-gmap">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.165595749306!2d-80.37992568448699!3d27.71217298278979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88de5c6e3b0a25a1%3A0x6c71b395e1e5b296!2sJohn&#39;s+Island+Club!5e0!3m2!1sen!2sus!4v1546537307723" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                          </div>
+                            </div>
+                      </div>
+                        </div>
+                    <div class="text-center">
+                          <h3 style="padding:1em 0 .5em">Speakers</h3>
+                         
+                        </div>
+                    <div class="owl-carousel wow zoomIn" data-wow-duration="0.75s">
+                          <div class="item">
+                        <div class="col-md-2 speaker"> <a href="https://www.glenmede.com/laura-larosa" style="text-decoration:none;" target="_blank"><img alt="" class="center-block img-responsive" src="https://www.glenmede.com/files/styles/350x350/public/l_larosa_web.jpg?itok=Eu69Mcd2"></a> </div>
+                        <div class="col-md-10 text-left speaker-content" style="margin-bottom: 1.5em; margin-top: 1.5em;">
+                              <h4><a href="https://www.glenmede.com/laura-larosa" style="text-decoration:none;" target="_blank">Laura LaRosa</a></h4>
+                              <span style="font-size:14px;"><strong>Executive Director of Client Development, Glenmede </strong></span>
+                              <hr>
+                              <p>A member of Glenmede’s Investment Policy Committee and Management Committee, Laura will facilitate the evening’s discussion and incorporate questions and comments from guests to ensure an engaging discussion. With her 30+ year career, Ms. LaRosa is a frequent speaker on portfolio management, fixed income, impact investing and investment strategy.</p>
+                            </div>
+                      </div>
+                        </div>
+                    <div class="owl-carousel wow zoomIn" data-wow-duration="0.75s">
+                          <div class="item">
+                        <div class="col-md-2 speaker"> <a href="https://www.glenmede.com/jason-d-pride-cfa" style="text-decoration:none;" target="_blank"><img alt="" class="center-block img-responsive" src="https://www.glenmede.com/files/styles/350x350/public/jason-pride-bio-2_1.jpg?itok=v9ryZl3M"></a> </div>
+                        <div class="col-md-10 text-left speaker-content" style="margin-bottom: 1.5em; margin-top: 1.5em;">
+                              <h4><a href="https://www.glenmede.com/jason-d-pride-cfa" style="text-decoration:none;" target="_blank">Jason Pride</a></h4>
+                              <span style="font-size:14px;"><strong>Chief Investment Officer of Private Wealth, Glenmede</strong></span>
+                              <hr>
+                              <p>Jason will discuss Glenmede’s outlook for the economy and markets, and the concurrent investment strategies, policies and portfolio construction methodologies applied to private wealth client portfolios. In addition to publishing his views on a quarterly basis, the team also produces a <a href="https://www.glenmede.com/our-ideas" target="_blank"><u>weekly summary overview</u></a> and video segment highlighting current issues of focus or interest. Jason is a regular commentator for local, regional and national media outlets, including: CNBC, Bloomberg, The New York Times, The Wall Street Journal, The Financial Times, Associated Press, Dow Jones and Reuters.</p>
+                            </div>
+                      </div>
+                        </div>
+                  </div>
+                    </div>
+              </div>
+                </section>
+          </div>
+              <div class="tab-pane fade in" id="information" pardot-region="about">
+            <div class="item">
+                  <div class="col-md-12 text-left speaker-content" style="margin-bottom: 1.5em; margin-top: 1.5em;">
+                <h1>About Glenmede</h1>
+                <br>
+                <p>Founded in 1956 by the Pew family to manage their charitable assets, Glenmede is among the nation's leading investment and wealth management firms. The company oversees $37 billion of investable assets under management for high-net-worth individuals, families, family offices, endowment, foundation and institutional clients. Headquartered in Philadelphia, the firm has offices in Ohio, Delaware, New Jersey, New York and Washington DC. For further information, please visit www.glenmede.com.</p>
+              </div>
+                </div>
+          </div>
+              <div class="tab-pane fade in" id="host" pardot-region="host">
+            <div class="text-center">
+                  <h3 style="padding:1em 0 .5em">Hosts</h3>
+                </div>
+            <div class="item">
+                  <h3>About Glenmede </h3>
+                  <p>Founded in 1956 by the Pew family to manage their charitable assets, Glenmede is among the nation's leading investment and wealth management firms. The company oversees $37 billion of investable assets under management for high-net-worth individuals, families, family offices, endowment, foundation and institutional clients. Headquartered in Philadelphia, the firm has offices in Ohio, Delaware, New Jersey, New York and Washington DC. For further information, please visit <a href="http://www.glenmede.com" target="_blank">www.glenmede.com</a>.</p>
+                  <hr>
+                  <h3>About BRAVA Investments</h3>
+                  <p>A permanently capitalized holding company for investors that want to create long-term economic growth while meaningfully addressing gender parity. BRAVA invests in high growth, innovative businesses with a proven impact on women in a multi-strategy investment approach throughout the entire capital structure. Our focus is on companies with proven science and technology with the potential for hyper-growth as well as on mispriced assets. We bring value to our investments with not only capital but also our expertise in creating and measuring impact on women globally. For further information, please visit <a href="http://www.bravainvestments.com" target="_blank">www.bravainvestments.com</a>.</p>
+                </div>
+          </div>
+            </div>
+      </div>
+        </div>
+  </div>
+    </div>
+<section class="feature-content" id="RSVP">
+      <div class="container">
+    <div class="row">
+          <div class="col-md-6">
+        <div class="dc-form introform" style="padding:0 0 0 30px;">
+              <div pardot-region="above-form">
+            <h3>Let Us Know You're Coming</h3>
+            <p>We kindly ask that you reserve this date and join us for this special occasion. More details to follow soon.</p>
+          </div>
+            </div>
+      </div>
+          <div class="col-md-6"> %%content%% </div>
+        </div>
+  </div>
+    </section>
+<div class="cta-content">
+      <div class="container">
+    <div class="row text-center">
+          <div class="col-md-8 col-md-offset-2" pardot-region="footer">
+        <h2>Still have questions?</h2>
+        <p>We'd love to speak with you and answer any questions you have. Please reach out to Christopher Tiano —Glenmede Business Development Officer <a href="mailto:christopher.tiano@glenmede.com" style="text-decoration:none !important"> christopher.tiano@glenmede.com</a> or 212-328-7346.</p>
+      </div>
+        </div>
+  </div>
+    </div>
+<script src="http://go.glenmede.com/l/129961/2016-09-27/zl3bw/129961/51444/jquery_1.11.2.min.js"></script> 
+<script src="http://go.glenmede.com/l/129961/2016-09-27/zl3bt/129961/51442/bootstrap.min.js">
+    </script> 
+<script src="http://go.glenmede.com/l/129961/2017-08-04/2kvj6v/129961/98365/jquery.easing.min.js"></script> 
+<script src="http://go.glenmede.com/l/129961/2017-08-04/2kvj6q/129961/98361/main2.js"></script> 
+<script src="http://go.glenmede.com/l/129961/2017-08-04/2kvj6x/129961/98367/main.js"></script> 
+<script src="http://go.glenmede.com/l/129961/2017-08-04/2kvj6s/129961/98363/bootstrap_tabcollapse.js"></script> 
+<script>
+        $('#options').simplebar();
+    </script> 
+<script type="text/javascript">
+        $('#gotoevent').click(function () {
+            $('#tabs a[href="#event"]').tab('show');
+        });
+        $('#gotospeakers').click(function () {
+            $('#tabs a[href="#speakers"]').tab('show');
+        });
+        $('#gotoagenda').click(function () {
+            $('#tabs a[href="#agenda"]').tab('show');
+        });
+
+        $('#gotoinformation').click(function () {
+            $('#tabs a[href="#information"]').tab('show');
+        });
+        $('#gotohost').click(function () {
+            $('#tabs a[href="#host"]').tab('show');
+        });
+
+        $(window).scroll(function () {
+            var value = $(this).scrollTop();
+            if (value > 60)
+                $(".navbar-default").css("background", "#ffffff").css("padding", "3px 0px 5px").css("height", "60px");
+            else
+                $(".navbar-default").css("background", "#ffffff").css("padding", "3px 0px 5px").css("height", "60px");
+        });
+    </script>
+</body>
+</html>
